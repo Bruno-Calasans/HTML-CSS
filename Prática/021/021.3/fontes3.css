@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Suki';
+    src: url(font/Suki_Yaki.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Ancient';
+    src: url(font/Ancient\ Medium.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+/*format = para dizer o tipo da fonte*/
+h1{
+    font-family: 'Ancient', 'Suki', serif;
+}

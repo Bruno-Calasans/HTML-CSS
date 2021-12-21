@@ -1,0 +1,73 @@
+#form1{
+    border: black solid 5px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+
+#form1 label, input{
+    display: block;
+    margin: 5px;
+}
+
+form#form1 div input{
+    display: inline-block;
+}
+
+#form2{
+    border: blue solid 5px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+
+#form2 #div2 input, label{
+    display: inline-block;
+}
+
+
+#form3{
+    border: rgb(228, 18, 18) solid 5px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+
+}
+
+#div3 label, input{
+    display: inline-block;
+}
+
+
+#form4{
+    border: rgb(217, 18, 228) solid 5px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+
+}
+
+input#imagem {
+    width: 25px;
+}
+
+#form5{
+    border: orange solid 5px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+
+#form6{
+    border: rgb(7, 168, 226) solid 5px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+
+#forma7{
+    border: rgb(7, 226, 7) solid 5px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}

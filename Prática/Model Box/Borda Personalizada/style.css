@@ -1,0 +1,7 @@
+div{
+    border: 10px solid black;
+    background: blue content-box;
+    border-image: url(border3.png) 20 round;
+    
+}
+

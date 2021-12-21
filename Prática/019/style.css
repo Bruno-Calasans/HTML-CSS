@@ -1,0 +1,36 @@
+*{
+   
+}
+/*configuração global*/
+
+
+
+body{
+    
+    text-align: justify;
+    background-image: linear-gradient(to bottom,
+    #00C9DB,
+    #4A16F2);
+    background-attachment: fixed;
+
+}
+
+/*
+-A colorização começa de cima para baixo
+-Quanto menor a porcentagem, mais tela
+aquela determinada cor ocupará*/
+
+h1{
+    text-align: center;
+    
+}
+
+h2{
+    
+
+}
+
+p{
+   
+}
+

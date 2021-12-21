@@ -1,0 +1,52 @@
+p::first-line{
+    color: orange;
+}
+
+p::first-letter{
+    font-size: 30px;
+}
+
+a:link{/*pseudo-classe: links visitados*/
+    text-decoration: none;
+}
+
+a:hover{/*pseudo-classe: quando passar o mouse em cima*/
+    text-decoration: underline;
+}
+
+a:visited{/*pseudo-classe: quando o link tiver sido ativado*/
+    color: red;
+}
+
+a:active{/*pseudo-classe: quando o link for clicado*/
+    color: yellow;
+}
+
+a::after{
+    content: '→';
+    color: yellow;
+}
+
+#p1::after{
+    content: 'Testando';
+    color: blue;
+}
+
+.p2::before{
+    content: '';
+    color: rgb(255, 0, 212);
+}
+
+div{
+    border-style: groove;
+}
+
+div p:first-child::before{
+    content: '##';
+    color: rgb(30, 36, 210);
+}
+
+div p:last-child::selection{
+    background-color: darkcyan;
+}
+    

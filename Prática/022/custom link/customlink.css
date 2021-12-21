@@ -1,0 +1,45 @@
+body{
+    background-color: darkblue;
+    font-family: sans-serif;
+}
+
+a{
+    color: rgb(43, 70, 226);
+    text-decoration: none;
+}
+
+/*o que vai acontecer quando o site tiver sido visitado*/
+a:visited{ 
+    color: rgb(255, 0, 234);
+}
+
+/*o que vai acontecer com o link quando passar a mão*/
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/*o que vai acontecer com o link quando clicar ou segurar*/
+a:active{
+    color: yellow;
+
+}
+
+/*pseudo-elementos modificam apenas a periferia do conteúdo*/
+a::after{
+    content: '☚';
+    color: yellow;
+}
+a::before{
+    content: '☛';
+    color: yellow;
+}
+
+/*posso modificar um pseudo-elemetno
+ para uma classe ou id específicos*/
+.especial::after{
+    content: '✌';
+}
+.especial::before{
+    content: '✌';
+}

@@ -1,0 +1,37 @@
+div{
+    background-color: teal;
+    height: 20px;
+    width: 50px;
+    border: 1px solid;
+}
+
+#div_teste{
+    background-color: aliceblue;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+/* 
+pseudo-classes são designadas por :
+hover é um exemplo de uma pseudo-classe
+*/
+div:hover{
+    background-color: tomato;
+}
+
+/*
+para acessar um elemento dentro de outro(child),
+é preciso usar a notação > 
+*/
+
+#div_teste > p{
+    display: none;
+}
+
+#div_teste:hover > p{
+    display: block;
+    background-color: tomato;
+    width: auto;
+    height: auto;
+}

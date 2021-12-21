@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        iframe{
+            border: 2em;
+            border-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Embutindo Mapa do Google Maps</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d31598.502364878997!2d-35.29173250000001!3d-8.120534399999995!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1619671556212!5m2!1sen!2sbr"
+    width="400" height="300" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <h1>Outros carregam</h2>
+        
+        <iframe src="http://www.example.com"
+        frameborder="1"
+        width="500"
+        sandbox
+        title="Example Site"
+        loading='lazy'
+        allowfullscreen></iframe>
+
+    <h1>Alguns sites não carregam via iframe</h2>
+    <iframe src="http://www.youtube.com" frameborder="0"></iframe>
+
+    <h1>Usando link para abrir iframe</h1>
+    <a href="index2.html" target="main">Abrir index 2</a>
+    <iframe src="http://www.example.com"
+    frameborder="0"
+    width="500"
+    name='main'></iframe>
+
+</body>
+</html>

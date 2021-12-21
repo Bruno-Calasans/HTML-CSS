@@ -1,0 +1,33 @@
+body{
+background-color: rgb(30, 210, 156);
+
+}
+
+h1{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 102, 0);
+}
+
+#html{
+    color:snow;
+    font-family: serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(236, 129, 6);
+
+}
+
+#css{
+    color: snow;
+    font-family: serif;
+    text-align: center;
+    font-weight: bold;
+    background-image: linear-gradient(
+        to right,
+        rgba(10, 42, 185, 0.952),
+        rgb(98, 0, 255)
+    
+    );
+}

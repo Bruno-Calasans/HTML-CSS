@@ -1,0 +1,43 @@
+body{
+    background-color: khaki;
+}
+
+h1{
+    background-color: gray;
+    height: max-content;
+   
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(78, 243, 13);
+    border: 40px;
+
+    border: 5px dotted blue;/*shorthand para border*/
+
+    /*shorthand para margin*/
+    margin: 10px 15px 30px 20px;/*Todos com as medidas diferentes*/
+    /*ou*/
+    margin: 10px;/*Todos com as mesmas medidas*/
+    /*ou*/
+    margin: 10px 20px;/*Medida vertical e horizontal, respectivamente*/
+
+    outline: 5px solid red;
+    
+}
+
+a{
+    border-width: 5px;
+    border-color: lawngreen;
+    border-style: double;
+    padding: 3px;
+    margin: 2px;
+}
+
+h2{
+   
+    width: min-content;
+    border: 5px dotted blue;
+    /*margin: 10px 30px;
+    padding: 40px;
+    outline: 10px solid red;*/
+
+}

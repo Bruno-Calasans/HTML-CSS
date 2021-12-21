@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Conceitos Básicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Teste 1-->
+    <form action="" name="login" id="form1" method=""> 
+
+        <fieldset name="dados pessoais">
+            <legend>Dados Pessoais</legend>
+            <label for="user1" form="form1">Nome</label>
+            <input type="text" name="user" id="user1" required>
+            <label for="password1" form="form1">Senha</label>
+            <input type="password" name="password" id="password1" maxlength="10">
+        </fieldset>
+
+        <div id="buttons_login">
+
+            <input type="submit" name="submit_button" id="sbm" value="Enviar">
+
+            <input type="reset" name="reset" id="rst_btn1" value="Resetar">
+
+            <input type="button" name="nada_btn" onclick="alert('Olá')" value="Fazer algo" id="btn_alert">
+
+        </div>
+
+    </form>
+    
+    <!--Teste 2-->
+    <form action="" name="choice" id="form2">
+
+        <div id='div2'>
+
+            <input type="radio" id="homem" name="gênero" value="homem">
+            <label for="homem">Homem</label>
+            <br>
+            <input type="radio" id="mulher" name="gênero" value="mulher">
+            <label for="homem">Mulher</label>
+
+            <br>
+
+            <input type="checkbox" name="bic" id="bicicleta">
+            <label for="criança">Tenho bicicleta</label>
+            <br>
+            <input type="checkbox" name="carro" id="carro">
+            <label for="criança">Tenho carro</label>
+            <br>
+            <input type="checkbox" name="moto" id="moto">
+            <label for="criança">Tenho moto</label>
+
+            <br>
+            <input type="submit">
+
+        </div>
+
+    </form>
+
+    <!--Teste 3-->
+    <form action="" name="date_form" id="form3">
+
+        <div id='div3'>
+
+            <label for="horas">Selecione o horário</label>
+            <input type="time" id="horas" name="horas" min="09:00" max="12:00">
+            <br>
+
+            <label for="data">Selecione a data</label>
+            <input type="date" id="data" name="data" min="2000-03-20" max="2020-05-10">
+
+            <br>
+            <label for="date_time">Selecione a data e hora</label>
+            <input type="datetime-local" id="date_time" name="datetime">
+
+            <br>
+
+            <label for="month">Selecione um mês e ano</label>
+            <input type="month" name="month" id="month" min="2000-02"
+            max="2005-10">
+
+            <label for="week">Selecione uma da semana e ano</label>
+            <input type="week" name="week" id="week" min="2010-5">
+
+
+            <br>
+            <input type="submit" name="submit_3">
+        </div>
+    </form>
+
+    
+    <!--Teste 4-->
+    <form action="" name="outros" id="form4">
+        <div>
+            <input type="hidden" name="escondido" value="teste">
+
+            <label for="cor">Selecione uma cor: </label>
+            <input type="color" name="cor" id="cor">
+            <br>
+
+            <label for="email">Digite seu email: </label>
+            <input type="email" name="email" id="email">
+            <br>
+
+            <label for="email">Imagem: </label>
+            <input type="image" name="imagem" id="imagem" src="default.png" title="Enviar formulário">
+            <br>
+
+            <label for="celular">Insira seu celular: </label>
+            <input type="tel" name="celular" id="celular" 
+            pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}"
+            placeholder="(xx)9xxxx-xxxx"
+            title="Exemplo de número válido: (12)91234-1234">
+            <br>
+
+            <label for="">Escolha um número: </label>
+            <input type="number" name="" id="número" min="0" max="1000" step="2">
+            <br>
+            <label for="pesquisa">Pesquisa</label>
+            <input type="search" name="pesquisa">
+            <br>
+            <input type="submit" value="Enviar">
+
+        </div>
+
+    </form>
+
+    <!--Teste 5-->
+    <form action="" id="form5" enctype="multipart/form-data"> 
+        <div>
+            <label for="">Insira um arquivo: </label>
+            <input type="file" name="arquivo" accept=".png, .jpg">
+            <br>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+    <!--Teste 6-->
+    <form action="" id="form6">
+        <label for="opções">Escolha uma opção:</label>
+
+        <select name="opções" id="opções" multiple size="5">
+
+            <optgroup label="Primeiro grupo"></optgroup>
+                <option value="opc1">Opção 1</option>
+                <option value="opc2">Opção 2</option>
+
+            <optgroup label="Segundo grupo"></optgroup>
+                <option value="opc1">Opção 1</option>
+                <option value="opc2">Opção 2</option>
+
+        </select>
+        <br>
+
+        <input list="lista_opções" name="datalist">
+        <datalist id="lista_opções">
+            <option value="opc1"> Opção 1</option>
+            <option value="opc2"> Opção 2</option>
+        </datalist>
+
+        <br>
+        <input type="submit" value="Enviar">
+        
+
+    </form>
+    <!--Teste 7-->
+    <form action="" id="form7">
+        <textarea name="texto" id="" cols="30" rows="10">
+        </textarea>
+        <input type="submit" value="Enviar">
+    </form>
+<body>
+</html>

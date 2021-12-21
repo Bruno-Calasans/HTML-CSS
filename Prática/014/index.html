@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML</title>
+</head>
+<body>
+    <h1>Vídeos Hospedados Localmente</h1>
+    <video width="560"controls poster="media/thumb_pumpkin.jpg">
+        <source src="media/Meu Video.webm" type="video/webm">
+        <source src="media/Meu Video.m4v" type="video/mp4">
+        <source src="media/meu_video-fullhd.mp4" type="video/mp4">
+        <track
+        kind="descriptions"
+        src="media/sampe.vtt"
+        srclang="pt-br"
+        label="português">
+    </video>
+
+    <h1>Vídeos Hospedados Externamente</h1>
+
+    <h2>No youtube</h2>
+    <iframe width="560"
+    height="315"
+    src="https://www.youtube.com/embed/d_qGO4GrbQM"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+    <h2>No vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/534526174"
+    width="560"
+    height="315"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen></iframe>
+
+</body>
+</html>

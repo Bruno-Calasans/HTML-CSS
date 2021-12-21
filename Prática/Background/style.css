@@ -1,0 +1,13 @@
+h1{
+    background-image: url(icon_teste-full.png), url(javascript_logo.png);
+    background-color: rosybrown;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, right;
+    background-size: contain;
+}
+
+body{
+    background: chartreuse url(javascript_logo.png) no-repeat fixed center;
+    background-size: cover;
+}
+

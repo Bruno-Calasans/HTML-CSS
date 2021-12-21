@@ -1,0 +1,5 @@
+#div1{
+    border: chocolate dotted 5px;
+    padding: 40px;
+    background: blue url(javascript_logo.png) center/contain no-repeat  content-box padding-box scroll;
+}

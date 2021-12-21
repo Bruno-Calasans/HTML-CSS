@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;700&display=swap');/*Font Antonio*/
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;700&family=Press+Start+2P&display=swap');/*Press Start 2p*/
+
+
+/*toda importação deve ficar acima do seletores*/
+h1{
+    font-family: 'Antonio', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Press Start 2P';
+
+}

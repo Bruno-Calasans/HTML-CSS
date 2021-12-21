@@ -1,0 +1,33 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to bottom,
+    #DB437C,
+    #8F1E47);
+    background-attachment: fixed;
+}
+
+main {
+    background-image: linear-gradient(to top,
+    #257A8F,
+    #2EBADB)
+    ;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #8F1E47;
+    width: 400px;/*Largua que o main vai ocupar*/
+    padding: 10%; /*a distância até as margens*/
+    margin: auto; /*Diz a posição do main na tela*/
+}
+
+h1{
+    color: #DBD05A;
+    text-shadow: 1px 1px 5px #6e2c38ab;
+    text-align: center;
+}
+
+h2{
+    color: hsl(55, 64%, 61%);
+    text-shadow: 1px 1px 0px #6e2c38ab;
+}
+p{
+    text-align: justify;
+}

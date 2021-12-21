@@ -1,0 +1,5 @@
+div#div1{
+    border: blue solid 10px;
+    max-width: 400px;
+    margin: auto;
+}

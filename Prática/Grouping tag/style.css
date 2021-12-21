@@ -1,0 +1,59 @@
+body{
+    background-color: lightcoral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: linen;
+    text-align: center;
+    margin: 20px;
+    padding: 0.5rem;
+    border: 0.5rem solid blue;
+}
+
+header h1{
+    box-shadow: 4px 5px 5px #00000088;
+    
+}
+nav{
+    background-color: lightsteelblue;
+}
+
+header a {
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    background-color: rgb(167, 193, 209);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.083);
+    box-shadow: 5px 4px 10px black;
+    border-radius: 10px 20px 30px 40px;
+}
+
+section article{
+    background-color: lightslategray;
+    margin: 0.5rem;
+    text-align: justify;
+    
+}
+
+aside{
+    background-color: brown;
+    display: inline-block;
+}
+
+footer{
+    background-color: lightsalmon;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+

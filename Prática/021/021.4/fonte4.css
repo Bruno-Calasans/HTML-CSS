@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    
+}
+
+h2{
+    text-align: left
+}
+
+p{
+    font: normal bold 1rem verdana, sans-serif;
+    text-align: justify;
+    text-indent: 1rem;
+}
+
+/*text-ident bota um parágrafo no texto*/

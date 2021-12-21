@@ -1,0 +1,6 @@
+#div1{
+    border: blue dotted 5px;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 25px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Brincando com Imagens Dinâmicas</h1>
+
+    <h2>Resolução Adaptativa</h2>
+    <img 
+    srcset="image_tamanho/image_1000.jpg 1000w, image_tamanho/image_500.jpg 500w"
+    sizes="(max-width: 750px) 500px, 1050px"
+    src="image_tamanho/image_1000.jpg" 
+    alt="Retângulo">
+    
+    <h2>Modo Paisagem ou Retrato</h2>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="image_tamanho/retrait.jpg">
+        <source media="(min-width: 750px)" srcset="image_tamanho/landscape.jpg">
+        <img src="image_tamanho/landscape.jpg" alt="Teste"> 
+    </picture>
+
+    <h2>Teste</h2>
+    <img 
+    srcset="image_tamanho/landscape.jpg 1000w,
+    image_tamanho/retrait.jpg 466w"
+    sizes="(max-width: 700px) 465px, 1000px"
+    src="image_tamanho/landscape.jpg" 
+    alt="Retângulo">
+    
+    <h2>Segunda forma</h2>
+    <picture>
+        <source media="(max-width: 650px)" srcset="image_tamanho/muito_pequena.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="image_tamanho/pequena.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="image_tamanho/média.png" type="image/png">
+        <img src="image_tamanho/grande.png" alt="imagem grande">
+    </picture>
+
+    
+</body>
+</html>

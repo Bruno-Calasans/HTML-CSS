@@ -1,0 +1,32 @@
+div{
+    border-style: groove;
+}
+
+div :first-child{
+    color: darkred;
+    background-color: darksalmon;
+}
+div p:last-child{
+    color: blue;
+}
+
+body :only-child{
+    background-color: rgb(52, 170, 78);
+}
+
+#divteste :first-child:hover{
+    background-color: magenta;
+}
+
+h2:first-of-type:active{
+    background-color: orange;
+}
+
+#divteste2 :last-child{
+    display: none;
+}
+
+#divteste2:hover :last-child{
+    display: block;
+
+}
