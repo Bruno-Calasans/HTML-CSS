@@ -1,0 +1,25 @@
+
+div.bg{
+    background-color: lightgray;
+    display: inline-block;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+body{
+    background-image: url(Imagens/pattern003.png);
+    background-repeat: repeat-y;
+}
+
+#div1{
+    background-color: lightseagreen;
+}
+
+#div2{
+    background-image: linear-gradient(to right, blue, red);
+}
+
+#div3{
+    background-image: url("Imagens/pattern003.png");
+}

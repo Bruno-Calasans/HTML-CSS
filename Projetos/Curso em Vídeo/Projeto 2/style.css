@@ -1,0 +1,37 @@
+body{
+    background-color: burlywood;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(209, 139, 73);
+    min-width: 320px;
+    text-align: center;
+}
+
+header h1 {
+    max-width: 300px;
+    margin: auto;
+    padding: 5px;
+}
+
+header p{
+    max-width: 150px;
+    margin: auto;
+    padding: 5px;
+}
+
+li{
+    list-style-type: none;
+}
+
+footer {
+    background-color: rgb(162, 112, 48);
+    margin-bottom: 0px;
+}
+footer p {
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 2px;
+}
+   

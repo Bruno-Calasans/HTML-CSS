@@ -1,0 +1,18 @@
+body{
+    height: 97vh;
+    background-color: black;
+    background-image: url(Imagens/wallpaper002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-attachment: fixed;
+    background:  black url(Imagens/wallpaper002.jpg) top center no-repeat scroll;
+}
+
+div{
+    background-color: lightgray;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid rgb(0, 153, 255);
+}

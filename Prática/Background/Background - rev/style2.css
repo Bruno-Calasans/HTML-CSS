@@ -1,0 +1,32 @@
+
+div.bg{
+    
+    background-color: lightgray;
+    display: inline-block;
+    border: 2px solid black;
+    height: 100px;
+    width: 500px;
+}
+
+#div1{
+    background-image: url("Imagens/wallpaper003.jpg");
+    background-position: left top;
+}
+
+#div2{
+    background-image: url("Imagens/wallpaper003.jpg");
+    background-position: left center;
+}
+
+#div3{
+    background-image: url("Imagens/wallpaper003.jpg");
+    background-position: right top;
+}
+
+#div4{
+    background-image: url("Imagens/wallpaper003.jpg");
+    background-position: center center;
+}
+
+
+
