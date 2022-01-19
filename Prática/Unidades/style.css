@@ -1,0 +1,88 @@
+div#absoluta{
+    background-color: lightblue;
+}
+
+#p1{
+    font-size: 1cm;
+}
+
+#p2{
+    font-size: 5mm;
+}
+
+#p3{
+    font-size: 0.5in;
+}
+
+#p4{
+    font-size: 10px;
+}
+
+#p5{
+    font-size: 10pt;
+}
+
+#p6{
+    font-size: 1pc;
+}
+
+div#relativa{
+    background-color: rgb(175, 175, 30);
+}
+
+#p7{
+    font-size: 20px;
+}
+
+#p7 span{
+    font-size: 2em;
+}
+
+#p8 span{
+    font-size: 1ex;
+}
+
+#p9 span{
+    font-size: 1ch;
+}
+
+#p10{
+    font-size: 20px;
+}
+
+#p10 span{
+    font-size: 2rem;
+}
+
+#p11 span{
+    font-size: 5vw;
+}
+
+#p12 span{
+    font-size: 5vh;
+}
+
+#p13 span{
+    font-size: 5vmin;
+}
+
+#p14 span{
+    font-size: 5vmax;
+}
+
+#p16 span{
+    font-size: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+
+p{
+    background-color: lightblue;
+}
+
+#p1{
+    color: blue;
+}
+
+#alinhamento{
+    background-color: lightcoral;
+}
+
+#p2{
+    text-align: right;
+}
+
+#p3{
+    text-align: left;
+}
+
+#p4{
+    text-align: center;
+}
+
+#p5{
+    text-align: justify;
+}
+
+#p6{
+    text-align-last: right;
+}
+
+#p7{
+    direction: rtl;
+}
+
+#p8{
+    text-decoration: overline;
+}
+
+#p9{
+    text-decoration: underline;
+}
+
+#p10{
+    text-decoration: line-through;
+}
+
+#p11{
+    text-transform: lowercase;
+}
+
+#p12{
+    text-transform: uppercase;
+}
+
+#p13{
+    text-transform: capitalize;
+}
+
+#p14{
+    text-indent: 50px;
+}
+
+#p15{
+    letter-spacing: 1px;
+}
+
+#p16{
+    word-spacing: 10px;
+}
+
+#p17{
+    line-height: 2em;
+}
+
+#p18{
+    white-space: normal;
+}
+
+#p19{
+    white-space: nowrap;
+}
+
+#p20{
+    white-space: pre;
+}
+
+#p21{
+    white-space: pre-line;
+}
+
+#p22{
+    white-space: pre-wrap;
+}
+
+
+
+

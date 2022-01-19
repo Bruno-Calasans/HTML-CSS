@@ -1,37 +1,125 @@
-body{
-    background-color: burlywood;
-    margin: 0px;
+
+@font-face {
+    font-family: 'Arima';
+    src: url(fonts/ArimaMadurai-Regular.ttf);
 }
 
-header{
-    background-color: rgb(209, 139, 73);
+
+@font-face {
+    font-family: 'Markscript';
+    src: url(fonts/MarckScript-Regular.ttf);
+}
+
+
+:root{
+    --cor0: #E39F46;
+    --cor1: #DEB887;
+    --cor2: #AB8E68;
+    --cor3: #5E4E3A;
+    --cor4: #5E421D;
+    --cor5: snow;
+
+    --fonte0: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte1: 'Arima', sans-seriff;
+    --fonte2: 'Markscript', cursive;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body{
+    background-color: var(--cor1);
+    font-family: var(--fonte0);
     min-width: 320px;
+}
+
+
+/*header*/
+header{
+    background-color: var(--cor4);
+    color: var(--cor5);
+    min-width: 320px;
+    margin: 0px;
     text-align: center;
 }
 
 header h1 {
-    max-width: 300px;
+    min-width: 320px;
     margin: auto;
-    padding: 5px;
+    padding-top: 30px;
+    font-variant: small-caps;
+    font-size: 5vw;
 }
 
 header p{
-    max-width: 150px;
+    min-width: 320px;
     margin: auto;
+    padding-bottom: 30px;
+    font-size: 2.5vw;
+}
+
+/*links*/
+a{
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*Main*/
+main{
+    font-family: var(--fonte1);
+    font-weight: bold;
+    font-size: 3.0vw;
+}
+
+section{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+
+section.normal{
+    background-color: var(--cor5);
+}
+
+section.imagem{
+    background-color: var(--cor0);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 15px 0px black;
+
+}
+
+section.imagem p {
+    display: inline-block;
     padding: 5px;
+    background-color: #deb88783;
 }
 
-li{
-    list-style-type: none;
+#image01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
 }
 
+#image02{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+}
+
+/*Footer*/
 footer {
-    background-color: rgb(162, 112, 48);
-    margin-bottom: 0px;
-}
-footer p {
+    background-color: var(--cor4);
+    color: var(--cor5);
+    padding: 3px;
     text-align: center;
-    margin-bottom: 0px;
-    padding: 2px;
 }
-   
+
