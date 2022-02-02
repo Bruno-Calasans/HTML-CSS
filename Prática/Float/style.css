@@ -1,0 +1,97 @@
+.container{
+    background-color: burlywood;
+    width: 400px;
+}
+
+/*sem clear*/
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#img1{
+    float: none;
+}
+
+#img2{
+    float: right;
+}
+
+#img3{
+    float: left;
+}
+
+.div_no_float{
+    background-color: crimson;
+    border: 2px solid black;
+    margin: 5px;
+    float: none;
+}
+
+
+.div_float_left{
+    background-color: crimson;
+    border: 2px solid black;
+    margin: 5px;
+    float: left;
+}
+
+.div_float_right{
+    background-color: crimson;
+    border: 2px solid black;
+    margin: 5px;
+    float: right;
+}
+
+/*com clear*/
+#img4{
+    float: left;
+}
+
+#img4_clear{
+    clear: left;
+}
+
+#img5{
+    float: right;
+}
+
+#img5_clear{
+    clear: right;
+}
+
+#img6{
+    float: right;
+}
+
+#img6_1{
+    float: left;
+}
+
+#img6_clear{
+    clear: both;
+}
+
+/*problema*/
+.container_problema{
+    background-color: burlywood;
+}
+
+#img_com_problema{
+    float: right;
+}
+
+/*solução 1 - sem scroll*/
+#container_overflow1{
+    overflow: auto;
+}
+
+/*solução 1 - com scroll*/
+#container_overflow2{
+    height: 80px;
+    overflow: auto;
+}
+
+
+
+

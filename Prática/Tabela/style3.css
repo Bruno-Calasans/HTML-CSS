@@ -1,0 +1,31 @@
+table{
+    border: 2px solid rgb(44, 100, 220);
+    border-spacing: 5px;
+}
+
+caption{
+    background-color: gray;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+th{
+    background-color: rgb(135, 148, 222);
+    padding: 5px;
+    vertical-align: middle;
+}
+
+td{
+    background-color: rgb(0, 255, 251);
+    padding: 2px;
+}
+
+tfoot td, tfoot th{
+    background-color: rgb(38, 197, 128);
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+}

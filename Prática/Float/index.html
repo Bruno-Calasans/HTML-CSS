@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Propriedade Float</h1>
+
+    <h2>Float: none(sem float)</h2>
+    <div class='container'>
+        <p id="p1">
+            <img src="image_example.png" id="img1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit! Quod eum impedit nostrum enim facilis, ullam quis eligendi sapiente tenetur molestias nobis. Molestias dolorem dignissimos quibusdam, in aliquam tempore!
+        </p>
+    </div>
+
+    <h2>Float: right</h2>
+    <div class='container'>
+        <p>
+            <img src="image_example.png" id="img2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit! Quod eum impedit nostrum enim facilis, ullam quis eligendi sapiente tenetur molestias nobis. Molestias dolorem dignissimos quibusdam, in aliquam tempore!
+        </p>
+    </div>
+
+    <h2>Float: left</h2>
+    <div class='container'>
+        <p>
+            <img src="image_example.png" id="img3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit! Quod eum impedit nostrum enim facilis, ullam quis eligendi sapiente tenetur molestias nobis. Molestias dolorem dignissimos quibusdam, in aliquam tempore!
+        </p>
+    </div>
+
+    <h2>Sem float em divs</h2>
+    <div class='container'>
+        <div class="div_no_float">Div1</div>
+        <div class="div_no_float">Div2</div>
+        <div class="div_no_float">Div3</div>
+    </div>
+
+
+    <h2>float left em divs</h2>
+    <div class='container'>
+        <div class="div_float_left">Div1</div>
+        <div class="div_float_left">Div2</div>
+        <div class="div_float_left">Div3</div>
+    </div>
+
+    <br><br>
+
+    <h2>float right em divs</h2>
+    <div class='container'>
+        <div class="div_float_right">Div1</div>
+        <div class="div_float_right">Div2</div>
+        <div class="div_float_right">Div3</div>
+    </div>
+
+    <br><br>
+
+    <h1>Usando a propriedade Clear</h1>
+
+    <h2>Float:left e Clear:left</h2>
+    <div class='container'>
+        <p>
+            <img src="image_example.png" id="img4">
+            <p id="img4_clear">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit! Quod eum impedit nostrum enim facilis, ullam quis eligendi sapiente tenetur molestias nobis. Molestias dolorem dignissimos quibusdam, in aliquam tempore!
+            </p>
+        </p>
+    </div>
+
+    <h2>Float:right e Clear:right</h2>
+    <div class='container'>
+        <p>
+            <img src="image_example.png" id="img5">
+            <p id="img5_clear">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit! Quod eum impedit nostrum enim facilis, ullam quis eligendi sapiente tenetur molestias nobis. Molestias dolorem dignissimos quibusdam, in aliquam tempore!
+            </p>
+        </p>
+    </div>
+
+    <h2>Float:right e left e Clear:both</h2>
+    <div class='container'>
+    
+        <img src="image_example.png" id="img6">
+        <img src="image_example.png" id="img6_1">
+        <p id="img6_clear">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit! Quod eum impedit nostrum enim facilis, ullam quis eligendi sapiente tenetur molestias nobis. Molestias dolorem dignissimos quibusdam, in aliquam tempore!
+        </p>
+        
+    </div>
+
+    <br>
+
+    <h2>Problema</h2>
+    <div class='container_problema'>
+    
+        <img src="image_example.png" id="img_com_problema">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit! Quod eum impedit nostrum enim facilis, ullam quis eligendi sapiente tenetur molestias nobis. Molestias dolorem dignissimos quibusdam, in aliquam tempore!
+        </p>
+        
+    </div>
+
+    <br>
+
+    <h2>Solução 1: usando overflow no container</h2>
+    <div class='container_problema' id="container_overflow1">
+    
+        <img src="image_example.png" id="img_com_problema">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit! Quod eum impedit nostrum enim facilis, ullam quis eligendi sapiente tenetur molestias nobis. Molestias dolorem dignissimos quibusdam, in aliquam tempore!
+        </p>
+        
+    </div>
+
+    <br>
+
+    <h2>Solução 1: usando overflow no container, mas com scroll</h2>
+    <div class='container_problema' id="container_overflow2">
+    
+        <img src="image_example.png" id="img_com_problema">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit! Quod eum impedit nostrum enim facilis, ullam quis eligendi sapiente tenetur molestias nobis. Molestias dolorem dignissimos quibusdam, in aliquam tempore!
+        </p>
+        
+    </div>
+
+    <br><br><br><br>
+
+
+    
+</body>
+</html>

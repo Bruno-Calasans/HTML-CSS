@@ -1,0 +1,21 @@
+.dropdown{
+    background-color: burlywood;
+    width: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.dropdown_content{
+    display: none;
+    background-color: rgb(221, 196, 162);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+}
+
+.dropdown_content p {
+    margin: 5px;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}

@@ -1,0 +1,17 @@
+
+
+div{
+    background-color: burlywood;
+    padding: 5px;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+#div1{
+    box-sizing: content-box;
+}
+
+#div2{
+    box-sizing: border-box;
+}

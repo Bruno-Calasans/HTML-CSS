@@ -1,0 +1,30 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+caption{
+    background-color: lightgray;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+td, th{
+    border: 2px solid gray;
+    padding: 5px;
+    width: 80x;
+    text-align: center;
+}
+
+thead{
+    background-color: lightgreen;
+}
+
+.área{
+    background-color: lightskyblue;
+}
+
+.médias{
+    background-color: lightgray;
+}

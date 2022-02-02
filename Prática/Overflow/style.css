@@ -1,0 +1,48 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+#div1{
+    overflow: visible;
+}
+
+#div2{
+    overflow: hidden;
+}
+
+#div3{
+    overflow: scroll;
+}
+
+#div4{
+    overflow: auto;
+}
+
+#div5{
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+.div_tabela{
+    width: 500px;
+    height: fit-content;
+}
+
+#tabela_responsiva{
+    overflow-x: auto;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #46e2e8;
+}
+
+tr:hover{
+    background-color: #8be9ed;
+}

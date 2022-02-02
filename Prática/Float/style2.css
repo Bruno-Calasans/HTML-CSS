@@ -1,0 +1,52 @@
+.bloco{
+    background-color: burlywood;
+    text-align: center;
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 50px;
+    border: 5px solid black;
+    float: left;
+}
+
+.bloco2{
+    text-align: center;
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 300px;
+    padding: 5px;
+    border: 5px solid black;
+    background-color: burlywood;
+    float: left;
+}
+
+/*imagem com legenda*/
+img{
+    width: 60px;
+    height: 60px;
+}
+
+#container_principal{
+    text-align: justify;
+    overflow: auto;
+}
+
+.container_img{
+    border: 2px solid black;
+    width: 100px;
+    height: 110px;
+    padding: 5px;
+    text-align: center;
+    float: right;
+}
+
+/*primeira letra*/
+
+.primeira_letra{
+    font-weight: bold;
+    font-family: fantasy;
+    width: 0.6em;
+    font-size: 2em;
+    line-height: 70%;
+    float: left;
+}
+

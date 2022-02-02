@@ -1,0 +1,33 @@
+table{
+    border: 3px solid gray;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    position: relative;
+}
+
+#títulos{
+    background-color: lightcoral;
+}
+
+th{
+    position: sticky;
+    top: -2px;
+    background-color: lightcoral;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+
+

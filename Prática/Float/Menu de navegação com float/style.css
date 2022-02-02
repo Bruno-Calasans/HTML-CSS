@@ -1,0 +1,36 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+    background-color: burlywood;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+li{
+    float: left;
+}
+
+a{
+    display: block;
+    color: rgb(28, 24, 10);
+    text-decoration: none;
+    padding: 12px;
+}
+
+a:hover{
+    background-color: rgb(218, 155, 73);
+    color: cornsilk;
+}
+
+

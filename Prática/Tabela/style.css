@@ -1,0 +1,29 @@
+
+table{
+    width: 300px;
+    height: 100px;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 145, 255);
+}
+
+caption{
+    caption-side: bottom;
+    text-align: right;
+}
+
+th, td{
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+}
+
+th{
+    background-color: rgba(0, 81, 255, 0.679);
+    vertical-align: middle;
+}
+
+td{
+    background-color: rgb(127, 255, 195);
+}
+
+

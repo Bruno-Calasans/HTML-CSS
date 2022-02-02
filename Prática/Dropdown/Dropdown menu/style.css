@@ -1,0 +1,104 @@
+
+:root{
+    --corFundo: #261b0c;
+    --corFundo2:#979693;
+    --corHover: #23923a;
+    --corTexto1: #eeebe8;
+}
+
+*{
+    margin: 0px;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: var(--corFundo);
+    position: relative;
+}
+
+
+
+li,a {
+    display: inline-block;
+    
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--corTexto1);
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    width: 100px;
+}
+
+a:hover{
+    background-color: var(--corHover);
+    color: var(--corFundo);
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdownContent {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: var(--corFundo2);
+}
+
+.dropdownContent li{
+    border: 1px solid white;
+}
+
+.dropdown:hover .dropdownContent{
+    display: block;
+}
+
+/*dropdown horizontal*/
+.dropdown2, .dropdownContent2{
+    display: inline-block;
+}
+
+.dropdown2{
+    position: relative;
+}
+
+.dropdownContent2{
+    position: absolute;
+    background-color: var(--corFundo2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+}
+
+.dropdown2:hover .dropdownContent2{
+    display: inline-block;
+}
+
+.submenuBaixo::after{
+    content: ' \02C5';
+    
+}
+
+.submenuLado::after{
+    content: ' \02C3';  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

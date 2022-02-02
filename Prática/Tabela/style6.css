@@ -1,0 +1,38 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+colgroup{
+    background-color: cornflowerblue;
+}
+
+
+
+#grupo{
+    background-color: chocolate;
+}
+
+
+#cNome{
+    background-color: burlywood;
+}
+
+#cSexo{
+    background-color: aqua;
+    
+}
+
+#cIdade{
+    background-color: blueviolet;
+}
+
+#cOcupação{
+    background-color: cadetblue;
+}
+
