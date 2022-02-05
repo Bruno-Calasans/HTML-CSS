@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores de Atributos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Seletores de Atributos</h1>
+
+    <div class="seletor">
+
+        <h2>Seletor [atributo]</h2>
+
+        <a href="#">Sem atributo target</a>
+        <a href="#" target="_blank">Com atributo target</a>
+
+    </div>
+
+    <div class="seletor">
+
+        <h2>Seletor [atributo='valor']</h2>
+
+        <a href="#">Sem atributo target</a>
+        <a href="#" target="_blank">Com atributo target</a>
+        <a href="#" target="_top">Com atributo target</a>
+    </div>
+
+    <div class="seletor">
+
+        <h2>Seletor [atributo~='valor']</h2>
+
+        <p title="teste">Atributo title='teste'</p>
+        <p title="exemplo teste">Atributo title='exemplo teste'</p>
+        <p title="nada">Atributo title='nada'</p>
+    </div>
+
+    <div class="seletor">
+
+        <h2>Seletor [atributo|='valor']</h2>
+
+        <p title="exemplo">Atributo title='exemplo'</p>
+        <p title="exemplo-teste2">Atributo title='exemplo-teste2'</p>
+        <p title="exemplo teste3">Atributo title='exemplo teste3'</p>
+    </div>
+
+    <div class="seletor">
+
+        <h2>Seletor [atributo^='valor']</h2>
+
+        <p title="p_exemplo 1">Atributo title='p_exemplo'</p>
+        <p title="p_exemplo 2">Atributo title='p_exemplo 2'</p>
+        <p title=" p_exemplo 3">Atributo title=' p_exemplo 3 '</p>
+    </div>
+
+    <div class="seletor">
+
+        <h2>Seletor [atributo$='valor']</h2>
+
+        <p title="primeiro parágrafo">Atributo title='primeiro parágrafo'</p>
+        <p title="segundo parágrafo">Atributo title='segundo parágrafo'</p>
+        <p title="terceiro">Atributo title='terceiro'</p>
+    </div>
+
+    <div class="seletor">
+
+        <h2>Seletor [atributo*='valor']</h2>
+
+        <p title="p exemploteste1">Atributo title='p exemploteste1'</p>
+        <p title="p exemploteste2">Atributo title='p exemploteste2'</p>
+        <p title="p terceiro">Atributo title='p terceiro'</p>
+
+    </div>
+
+
+
+
+    
+</body>
+</html>

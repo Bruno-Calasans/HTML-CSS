@@ -1,0 +1,33 @@
+
+.seletor{
+    background-color: burlywood;
+}
+
+a[target]{
+    color: red;
+}
+
+a[target='_top']{
+    color: chartreuse;
+}
+
+p[title~='teste']{
+    color: blue;
+}
+
+p[title|='exemplo']{
+    color: cornsilk;
+}
+
+p[title^='p_exemplo']{
+    color: cyan;
+}
+
+p[title$='parágrafo']{
+    color: darkgreen;
+}
+
+p[title*='exemploteste']{
+    color: darkorchid;
+    
+}
