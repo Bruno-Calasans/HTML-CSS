@@ -1,0 +1,70 @@
+div{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    transition: width 1s, height 1s;
+}
+
+div#box1:hover{
+    width: 100px;
+    height: 100px;
+    transition-property: width, height;
+    transition-duration: 2s, 2s;
+}
+
+
+/*Usando transition-timing-function*/
+
+#container:hover .box-function{
+    width: 300px;
+    transition: width 2s;
+}
+
+.box-function:hover{
+    width: 300px;
+    transition: width 2s;
+}
+
+#box-ease{
+    transition: width 2s, height 2s;
+    transition-timing-function: ease;
+}
+
+#box-linear{
+    background-color: aqua;
+    transition: width 2s, height 2s;
+    transition-timing-function: linear;
+}
+
+#box-ease-in{
+    background-color: burlywood;
+    transition: width 2s, height 2s;
+    transition-timing-function: ease-in;
+}
+
+#box-ease-out{
+    background-color: brown;
+    transition: width 2s, height 2s;
+    transition-timing-function: linear;
+}
+
+#box-ease-in-out{
+    background-color: chartreuse;
+    transition: width 2s, height 2s;
+    transition-timing-function: linear;
+}
+
+#box2:hover{
+    width: 100px;
+    height: 100px;
+    transition-property: width, height;
+    transition-duration: 2s, 3s;
+    transition-delay: 2s;
+}
+
+
+#box3:hover{
+    width: 300px;
+    transform: rotate(45deg);
+    transition: width 2s 2s ease, transform 2s 4s linear;
+}

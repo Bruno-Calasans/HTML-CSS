@@ -1,0 +1,51 @@
+
+/*Utilizando image sprite*/
+.home{
+    width: 46px;
+    height: 44px;
+    background-image: url(Images/img_navsprites.gif);
+    background-position: 0px 0px;
+}
+
+.prev{
+    width: 43px;
+    height: 44px;
+    background-image: url(Images/img_navsprites.gif);
+    background-position: -47px 0px;
+}
+
+.next{
+    width: 43px;
+    height: 44px;
+    background-image: url(Images/img_navsprites.gif);
+    background-position: -91px 0px;
+}
+
+/*Criando um menu de navegação*/
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+li{
+    float: left;
+    margin: 5px;
+}
+
+
+/*Utilizando background com hover*/
+#home:hover{
+    background-image: url(Images/img_navsprites_hover.gif);
+    background-position: 0px -45px;
+}
+
+#prev:hover{
+    background-image: url(Images/img_navsprites_hover.gif);
+    background-position: -47px -45px;
+}
+
+#next:hover{
+    background-image: url(Images/img_navsprites_hover.gif);
+    background-position: -91px -45px;
+}
+
