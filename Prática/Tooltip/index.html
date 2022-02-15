@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltips</title>
+    <style>
+
+        .tooltip{
+            position: relative;
+            border: 1px solid black;
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin: auto;
+        }
+
+        .tooltip:hover .tooltipText{
+            visibility: visible;
+            opacity: 1;
+            /*display: block;*/
+           
+        }
+
+        .tooltipText{
+            background-color: #555;
+            color: beige;
+            text-align: center;
+            width: 100px;
+            padding: 2px;
+            border-radius: 5px;
+            /*display: none;*/
+            visibility: hidden;
+            /*Usando visibility porque transition não funciona com display*/
+
+            position: absolute;
+            z-index: 1;
+
+            opacity: 0;
+            transition: opacity 1s;
+
+            /*animation: aparecer 2s forwards;*/
+        }
+
+        #right{
+            top: -2px;
+            left: 105%;
+
+        }
+
+        #right::after{
+            content: '';
+            position:absolute;
+            border-style: solid;
+            border-color: transparent #555 transparent transparent;
+            border-width: 5px;
+            right: 100%;
+            top: 50%;
+            margin-top: -5px;
+        }
+
+        #left{
+            top: -2px;
+            right: 105%;
+        }
+
+        #left::after{
+            content: '';
+            position:absolute;
+            border-style: solid;
+            border-color: transparent transparent transparent #555;
+            border-width: 5px;
+            left: 100%;
+            top: 50%;
+            margin-top: -5px;
+        }
+
+        #top{
+            left: 50px;
+            bottom: 140%;
+        }
+
+        #top::after{
+            content: '';
+            position:absolute;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent ;
+            border-width: 5px;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+        }
+
+        #bottom{
+            left: 50px;
+            top:  140%;
+        }
+
+        #bottom::after{
+            content: '';
+            position:absolute;
+            border-style: solid;
+            border-color: transparent transparent #555 transparent ;
+            border-width: 5px;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -5px;
+     
+        }
+
+        @keyframes aparecer{
+
+            from{opacity: 0; display: none;}
+            to{opacity: 1; display: block;}
+        }
+
+        @keyframes desaparecer{
+
+            from{opacity: 1; display: block;}
+            to{opacity: 0; display: none;}
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Usando tooltips</h1>
+
+    <h2>Tooltip na direita</h2> <br>
+    <div class="tooltip">Passe o mouse em mim
+        <span id="right" class="tooltipText">Teste</span>
+    </div>
+
+    <h2>Tooltip em à esquerda</h2> <br>
+    <div class="tooltip">Passe o mouse em mim
+        <span id="left" class="tooltipText">Teste</span>
+    </div>
+
+    <h2>Tooltip em cima</h2> <br>
+    <div class="tooltip">Passe o mouse em mim
+        <span id="top" class="tooltipText">Teste</span>
+    </div>
+
+    <h2>Tooltip em baixo</h2> <br>
+    <div class="tooltip">Passe o mouse em mim
+        <span id="bottom" class="tooltipText">Teste</span>
+    </div>
+    
+    
+</body>
+</html>
