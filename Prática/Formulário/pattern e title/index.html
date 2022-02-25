@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern e Title</title>
+</head>
+<body>
+    <h1>Usando pattern e title em formulários</h1>
+
+    <form action="">
+
+        <p>
+            Nome completo:
+            <input type="text" 
+            pattern="([a-zA-Z]+(?!\d+)[\s]?)+" 
+            title="Só pode letras e um espaço por nome"
+            value="James jones"
+            required>
+        </p>
+
+        <p>
+            Usuário
+            <input type="text" 
+            pattern="^[^\d][a-zA-Z\d_]+(?!\s+)" 
+            title="Não pode começar com número e não pode ter espaço"
+            value="JoNeS_"
+            required>
+        </p>
+
+        <p>
+            Senha:
+            <input type="text" 
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+            title="Precisa ter, no mínimo, uma letra minúscula, maiúscula e um número"
+            required>
+        </p>
+
+        
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
