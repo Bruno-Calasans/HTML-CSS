@@ -1,0 +1,169 @@
+div{
+    text-align: center;
+    background-color: bisque;
+}
+
+/*flex padrão*/
+.flex-container{
+    display: flex;
+}
+
+.flex-item{
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+/*flex-direction*/
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-container4{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container5{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*flex-wrap*/
+.flex-container6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-container7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-container8{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.flex-container9{
+    display: flex;
+    flex-flow: wrap row;
+}
+
+/*justify-content*/
+.flex-container10{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+.flex-container11{
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+}
+
+.flex-container12{
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+}
+
+.flex-container13{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.flex-container14{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.flex-container15{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.flex-container16{
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container17{
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-container18{
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.flex-container19{
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.flex-container20{
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.flex-container21{
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.flex-container22{
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container22 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+

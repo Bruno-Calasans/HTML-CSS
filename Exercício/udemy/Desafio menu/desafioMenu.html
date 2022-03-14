@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+
+        body{
+            margin: 0px;
+            background-color: lightgray;
+        }
+
+        .cabecalho{
+            background-color: black;
+            position: relative;
+            padding: 10px;
+            font-family: 'Arial Narrow Bold', sans-serif;
+            font-size: 1.0em;
+            border-bottom: 5px solid lightskyblue;
+        }
+
+        .logo{
+            display: inline-block;
+            width: 200px;
+        }
+        
+        .logo a {
+            display: inline-block;
+        }
+
+        .logo img{
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .menu{
+            display: inline-block;
+            margin-left: 20px;
+            
+        }
+
+        .menu ul{
+            list-style: none;
+            padding: 0px;
+        }
+
+        .menu ul li{
+            display: inline-block;
+        }
+
+        .menu a{
+            padding: 10px;
+            border-radius: 4px;
+            
+        }
+
+        .autenticacao{
+            position: absolute;
+            right: 40px;
+            top: 35%;
+        }
+
+        .autenticacao a{
+            border-radius: 4px;
+            padding: 10px;
+        }
+
+        .autenticacao a:first-of-type:hover{
+            background-color: #379abf;
+            color: black;
+
+        }
+
+        .botao_destaque{
+            border-radius: 4px;
+            background-color: red;
+        }
+
+        .botao_destaque:hover{
+            background-color: green;
+        }
+
+        .menu a:hover{
+            background-color: #379abf;
+            color: black;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .menu-toggle{
+            display: none;
+            position: absolute;
+            top: 35%;
+            right: 5px;
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        .menu-toggle:hover{
+            color: rgb(160, 189, 189);
+        }
+
+        .selected{
+            background-color: #379abf;
+            color: black;
+        }
+
+        @media (max-width: 700px){
+            .autenticacao{display: none;}
+        }
+
+        @media (max-width: 530px){
+            .menu{display: none;}
+            .menu-toggle{display: inline-block;}
+            .autenticacao{display: inline-block;}
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="logo">
+            <a href="#inicio">
+                <img src="http://files.cod3r.com.br/curso-web/logo.png" alt="Logo"
+                onclick="selecionar(0)"
+                />
+            </a>
+        </div>
+
+        <button class="menu-toggle">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#inicio" onclick="selecionar(1, this)">Início</a>
+                </li>
+                <li>
+                    <a href="#cursos" onclick="selecionar(2, this)">Cursos</a>
+                </li>
+                <li>
+                    <a href="#sobre" onclick="selecionar(3, this)">Sobre</a>
+                </li>
+                <li>
+                    <a href="#contato" onclick="selecionar(4, this)">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <aside class="autenticacao">
+            <a href="#login" onclick="selecionar(0)">Login</a>
+            <a href="#registar" class="botao_destaque" onclick="selecionar(0)">Registrar</a>
+        </aside>
+
+    </header>
+
+    <script>
+        let links = document.querySelectorAll('.menu a')
+
+        function selecionar(a, elemento=HTMLElement){
+
+            for(let link of links){
+                link.className = ''
+            }
+            if(a != 0) elemento.className = 'selected'
+        }
+        
+    </script>
+</body>
+
+</html>

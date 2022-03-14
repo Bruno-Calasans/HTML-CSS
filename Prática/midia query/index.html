@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia Query</title>
+
+    <style>
+        div{
+            width: 200px;
+            height: 100px;
+            text-align: center;
+        }
+
+        .div1{
+            background-color: rgba(255, 0, 0, 0.487);
+        }
+
+        .div2{
+            background-color: rgb(0, 255, 179);
+        }
+
+        .div3{
+            background-color: rgb(140, 140, 22);
+        }
+
+        .div4{
+            background-color: blueviolet;
+        }
+
+        .div5{
+            background-color: rgba(165, 42, 42, 0.631);
+        }
+
+        @media screen and (max-width: 500px){
+            .div1{display: none}
+        }
+
+        @media (min-width: 600px){
+            .div2{display: none;}
+        }
+
+        @media (orientation: landscape){
+            .div3{background-color: blue;}
+        }
+
+        @media (max-width: 700px), (orientation: portrait){
+            .div4{background-color: chartreuse;}
+        }
+
+        @media all and (min-width: 800px) and (orientation: landscape){
+            .div5{background-color: coral;}
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Midia Query</h1>
+
+    <h2>Usando midia query com max-width</h2>
+    <div class="div1">
+        Apareço se a largura da tela for 500px ou menos
+    </div>
+
+    <h2>Usando midia query com min-width</h2>
+    <div class="div2">
+        Apareço se a largura da tela for 600px ou mais
+    </div>
+
+    <h2>Usando midia query com orientation</h2>
+    <div class="div3">
+        Se tiver orientation landscape, fico azul
+    </div>
+
+    <h2>Condições OU em midia query</h2>
+    <div class="div4">
+        Vou ficar cor lima se a largura for até 700px ou tiver orientation portrait
+    </div>
+
+    <h2>Condições E em midia query</h2>
+    <div class="div5">
+        Vou ficar cor coral se a largura for 800px ou mais E tiver orientation landscape
+    </div>
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
