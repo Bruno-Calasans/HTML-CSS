@@ -160,6 +160,49 @@ div{
     align-items: center;
 }
 
+/*align-content*/
+.flex-container23{
+    height: 200px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-container24{
+    height: 200px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.flex-container25{
+    height: 200px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.flex-container26{
+    height: 200px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.flex-container27{
+    height: 200px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+
 
 
 
