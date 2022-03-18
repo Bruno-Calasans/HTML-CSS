@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    *{
+        margin: 0px;
+    }
+
+    .grid-container {
+        display: grid;
+        height: 100vh;
+
+        grid-template-columns: 200px 4fr 1fr;
+        grid-template-rows: 1fr 5fr 1fr;
+
+        grid-template-areas:
+        'header header header'
+        'nav main main'
+        'nav main main'
+        'nav main main'
+        'footer footer footer'
+        ;
+        gap: 1px;
+        background-color: #2196F3;
+        padding: 0px;
+    }
+
+    .item1{
+        grid-area: header;
+    }
+
+    .item2{
+        grid-area: nav;
+    }
+
+    .item3{
+        grid-area: main;
+    }
+
+    .item4{
+        grid-area: footer;
+    }
+
+
+    .grid-container > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    @media(max-width: 600px){
+
+        .grid-container {
+   
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 50px 1fr 1fr;
+
+        grid-template-areas:
+        'header'
+        'nav'
+        'main' 'main'
+        'footer';
+
+        }
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="item1">Cabeçalho</div>
+        <div class="item2">Navegação</div>
+        <div class="item3">Conteúdo</div>  
+        <div class="item4">Footer</div>
+      </div>
+</body>
+</html>
