@@ -1,0 +1,119 @@
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 200px 200px;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #C3F7C7;
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 200px 200px;
+    grid-column: span 3;
+
+}
+
+article {
+    /* display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5px; */
+    width: 100%;
+    background-color: #D7FAF4;
+
+}
+
+article div {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: #FDFBCA;
+}
+
+article div:nth-child(1) {
+    height: 140px;
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 340px);
+}
+
+article div:nth-child(2) {
+    height: 60px;
+    position: absolute;
+    top: calc(40% + 150px);
+    left: calc(50% - 340px);
+}
+
+article div:nth-child(3) {
+    background-color: red;
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 230px);
+}
+
+article div:nth-child(4) {
+    background-color: red;
+    position: absolute;
+    top: calc(40% + 110px);
+    left: calc(50% - 230px);
+}
+
+article div:nth-child(5) {
+    background-color: green;
+    height: 60px;
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 120px);
+}
+
+article div:nth-child(6) {
+    background-color: green;
+    height: 140px;
+    position: absolute;
+    top: calc(40% + 70px);
+    left: calc(50% - 120px);
+}
+
+
+aside {
+    display: flex;
+    justify-content: center;
+    background-color: #52C560;
+    position: relative;
+    margin-bottom: -100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #E2FCE3;
+    order: 1;
+    margin-bottom: -100px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #028A0C;
+    grid-column: span 1;
+}
